@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="com.codon.VueHMS.utilities.Reporting" />
+
+	</listeners>
+
+
+	<test name="Test" preserve-order="true">
+
+
+		<classes>
+
+			<class name="com.codon.VueHMS.testcases.LoginTest">
+				<methods>
+					<include name="loginTest" />
+				</methods>
+			</class>
+
+
+			<class name="com.codon.VueHMS.testcases.RolesGrid">
+				<methods>
+					<exclude name="roleCreation" />
+					<exclude name="editRole" />
+					<exclude name="deleteRole" />
+
+				</methods>
+			</class>
+
+
+			<class name="com.codon.VueHMS.testcases.LocationsGrid">
+				<methods>
+					<exclude name="locationCreation" />
+					<exclude name="editlocation" />
+					<exclude name="deleteLocation" />
+					<exclude name="roomCreation" />
+					<exclude name="assignCost" />
+					<exclude name="editRoom" />
+					<exclude name="deleteRoom" />
+					<exclude name="createBeds" />
+					<exclude name="editBed" />
+					<exclude name="deleteBed" />
+				</methods>
+			</class>
+
+
+			<class name="com.codon.VueHMS.testcases.UsersGrid">
+				<methods>
+					<exclude name="userCreation" />
+					<exclude name="editUser" />
+					<exclude name="resetPassword" />
+					<exclude name="deleteUser" />
+				</methods>
+			</class>
+
+
+			<class name="com.codon.VueHMS.testcases.Departments">
+				<methods>
+					<exclude name="departmentCreation" />
+					<exclude name="editDepartmentDetails" />
+					<exclude name="deleteDepartment" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.Skills">
+				<methods>
+					<exclude name="skillCreation" />
+					<exclude name="editSkills" />
+					<exclude name="deleteSkills" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.DoctorsGrid">
+				<methods>
+					<exclude name="doctorCreation" />
+					<exclude name="editDoctorDetails" />
+					<exclude name="deleteDoctor" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.ServiceCategory">
+				<methods>
+					<exclude name="serviceCatgCreation" />
+					<exclude name="editServiceCatgDetails" />
+					<exclude name="deleteCategory" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.ServicesOfferedGrid">
+				<methods>
+					<exclude name="serviceCreation" />
+					<exclude name="editServices" />
+					<exclude name="deleteServices" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.Manufacturers">
+				<methods>
+					<exclude name="manufacturerCreation" />
+					<exclude name="editManufacturerDetails" />
+					<exclude name="deleteManufacturer" />
+				</methods>
+			</class>
+
+
+			<class name="com.codon.VueHMS.testcases.PackTypes">
+				<methods>
+					<exclude name="packTypesCreation" />
+					<exclude name="editPackTypes" />
+					<exclude name="deletePackTypes" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.TaxCodes">
+				<methods>
+					<exclude name="taxCodesCreation" />
+					<exclude name="editTaxCodes" />
+					<exclude name="deleteTaxCodes" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.MedicinesGrid">
+				<methods>
+					<exclude name="medicinesCreation" />
+					<exclude name="editMedicineDetails" />
+					<exclude name="deleteMedicine" />
+					<exclude name="stockDetailsCreation" />
+					<exclude name="editStcokDetails" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.PatientsModule">
+				<methods>
+					<exclude name="patientsCreation" />
+					<exclude name="editPatientsDetails" />
+					<exclude name="deletePatients" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.Appointments">
+				<methods>
+					<exclude name="appointmentCreation" />
+					<exclude name="editAppointment" />
+					<exclude name="deleteAppointment" />
+					<exclude name="admitAsINPatient" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.PatientInfoTab">
+				<methods>
+					<exclude name="editPatientInfo" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.MedicalHistoryTab">
+				<methods>
+					<exclude name="editMedicalHistory" />
+				</methods>
+			</class>
+
+			<class name="com.codon.VueHMS.testcases.PrescribedTests">
+				<methods>
+					<exclude name="testCreation" />
+					<exclude name="editTests" />
+					<exclude name="deleteTests" />
+					<exclude name="uploadTetsOrReports" />
+					<exclude name="deleteDocuments" />
+					<exclude name="testComments"/>
+					
+				</methods>
+			</class>
+			
+			<class name="com.codon.VueHMS.testcases.PrescribedMedicines">
+				<methods>
+					<exclude name="addMedicines" />
+					<exclude name="editMedicines" />
+					<exclude name="deleteMedicines" />
+				</methods>
+			</class>
+			
+			<class name="com.codon.VueHMS.testcases.References">
+				<methods>
+					<exclude name="addReferences" />
+					<exclude name="editReferences" />
+					<exclude name="deleteReferences" />
+				</methods>
+			</class>
+
+
+
+
+
+
+
+
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-02T16:00:38 IST" name="Suite" finished-at="2023-08-02T16:01:36 IST" duration-ms="58170">
+    <groups>
+    </groups>
+    <test started-at="2023-08-02T16:00:38 IST" name="Test" finished-at="2023-08-02T16:01:36 IST" duration-ms="58170">
+      <class name="com.anz.testcases.UserInfo">
+        <test-method is-config="true" signature="openANZpage()[pri:0, instance:com.anz.testcases.UserInfo@2a54a73f]" started-at="2023-08-02T16:00:38 IST" name="openANZpage" finished-at="2023-08-02T16:01:05 IST" duration-ms="27828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openANZpage -->
+        <test-method signature="getAmountwithProperDetails()[pri:0, instance:com.anz.testcases.UserInfo@2a54a73f]" started-at="2023-08-02T16:01:05 IST" name="getAmountwithProperDetails" finished-at="2023-08-02T16:01:20 IST" duration-ms="14417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAmountwithProperDetails -->
+        <test-method signature="startOverthePage()[pri:0, instance:com.anz.testcases.UserInfo@2a54a73f]" started-at="2023-08-02T16:01:20 IST" name="startOverthePage" finished-at="2023-08-02T16:01:22 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startOverthePage -->
+        <test-method signature="getErrorMsg()[pri:0, instance:com.anz.testcases.UserInfo@2a54a73f]" started-at="2023-08-02T16:01:22 IST" name="getErrorMsg" finished-at="2023-08-02T16:01:30 IST" duration-ms="7842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getErrorMsg -->
+        <test-method is-config="true" signature="closePage()[pri:0, instance:com.anz.testcases.UserInfo@2a54a73f]" started-at="2023-08-02T16:01:30 IST" name="closePage" finished-at="2023-08-02T16:01:36 IST" duration-ms="5693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closePage -->
+      </class> <!-- com.anz.testcases.UserInfo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
